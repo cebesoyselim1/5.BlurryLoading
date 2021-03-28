@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img{
+    background-image: url("./image/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(100%);
+}
+
+.bg-perc{
+    color: white;
+    font-size: 3rem;
+    z-index: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+}
+
